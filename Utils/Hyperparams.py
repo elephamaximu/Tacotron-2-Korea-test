@@ -138,7 +138,7 @@ hparams = tf.contrib.training.HParams(
     wavenet_ema_decay=0.9999,  # decay rate of exponential moving average
     train_with_GTA=False,  # Whether to use GTA mels to train wavenet instead of ground truth mels.
     ## environment params
-    base_dir='',
+    base_dir='/dev/Tacotron-2-Korean/',
     sentences=[
         '옛날 어느 마을에 한 총각이 살았습니다.',
         '사람들이 그 총각을 밥벌레 장군이라고 놀렸습니다.',

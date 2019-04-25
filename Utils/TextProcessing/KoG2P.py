@@ -39,6 +39,7 @@ def writefile(body, fname):
 
 def readRules(pver, rule_book):
     import re
+    
     try:
         f = open(rule_book, 'r', encoding="utf-8")
     except:
